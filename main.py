@@ -7,3 +7,4 @@ current_time = datetime.now()
 print(current_time, 2222222222)
 yaml.safe_dump([str(current_time)], open('data/config.yaml','w', encoding='utf-8'))
 
+print(123456)
